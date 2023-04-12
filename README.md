@@ -20,6 +20,7 @@ git clone https://github.com/jake-oci/oci_simple_ip_address_management_IPAM
 -pip3 install tabulate
 
 3.) Run the script
--./oci_simple_ip_address_management_IPAM/oci_simple_ipam.py
+
+-python3 ./oci_simple_ip_address_management_IPAM/oci_simple_ipam.py
 
 4.) Let it fly!
