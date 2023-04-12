@@ -17,6 +17,7 @@ git clone https://github.com/jake-oci/oci_simple_ip_address_management_IPAM
 1.) Go to Cloud Shell within your OCI console
 
 2.) Make sure tabluate is installed
+
 -pip3 install tabulate
 
 3.) Run the script
