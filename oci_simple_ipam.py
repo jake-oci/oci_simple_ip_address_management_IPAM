@@ -4,7 +4,7 @@ try:
     from tabulate import tabulate
 except ModuleNotFoundError:
     print("ERROR: Install tabulate for table output.")
-    print("From PIP: pip3 install tabulate")
+    print("From PIP: pip3 install tabulate --user")
     quit(-1)
 
 try: 
