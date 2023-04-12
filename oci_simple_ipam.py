@@ -54,7 +54,7 @@ for i in range(len(search_resources_response.data.items)):
     #print(utilization_dictionary)
 
     #Warn About Subnets with High Utilization
-    if num_utilization > 20:
+    if num_utilization > 75:
         high_utilization_subnets.append(utilization_dictionary)
 
 print("")
@@ -63,4 +63,5 @@ print("")
 print("Here are the subnets with high utilization")
 print("")
 print(tabulate(high_utilization_subnets, headers="keys"))
+print("")
 print("You can see the active IP addresses and utilization of all subnets by uncommenting the print statements in the script.")
