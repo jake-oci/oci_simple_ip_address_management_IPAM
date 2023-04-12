@@ -28,7 +28,7 @@ for i in range(len(search_resources_response.data.items)):
     list_private_ips_response = core_client.list_private_ips(subnet_id=subnet_ocid)
 
     #Give the user feedback on the progress.
-    print("({}/{}) - Collecting Data for SUBNET-{}".format(i+1, len(search_resources_response.data.items)+1, get_subnet_response.data.display_name))
+    print("({}/{}) - Collecting Data for SUBNET-{}".format(i+1, len(search_resources_response.data.items), get_subnet_response.data.display_name))
 
     #Find the Active IP addresses in the subnet.
     #Reserved IP addresses are added here (Gateway, Network and Broadcast Address)
