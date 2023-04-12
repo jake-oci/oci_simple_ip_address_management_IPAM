@@ -1,4 +1,4 @@
-## This script was Authored by Jake Bloom OCI Principal Network Solution Architect. This is not an Oracle supported script. No liability from this script will be assumed and support is best effort.
+*** This script was Authored by Jake Bloom OCI Principal Network Solution Architect. This is not an Oracle supported script. No liability from this script will be assumed and support is best effort. ***
 
 # oci_simple_ip_address_management_IPAM 
 Use Cases:
